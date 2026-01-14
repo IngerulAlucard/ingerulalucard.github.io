@@ -501,6 +501,21 @@ body {
   letter-spacing: .18em;
   color: rgba(255,255,255,0.7);
 }
+/* GALERÍA: mismo tamaño para IMG y VIDEO */
+.gallery-item img,
+.gallery-item video {
+  width: 100%;
+  aspect-ratio: 16 / 9;     /* o 4 / 3 si lo prefieres */
+  height: auto;             /* el alto lo controla el aspect-ratio */
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: var(--shadow-soft);
+  display: block;
+}
+
+.gallery-item video {
+  background: #000;
+}
 
 /* HORARIO */
 

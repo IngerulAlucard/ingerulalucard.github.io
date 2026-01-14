@@ -241,51 +241,39 @@
   </section>
 
   <!-- GALERÍA SIMPLE, HABILITAR EN CASO DE QUERER MOSTRAR IMAGENES DE SU TRABAJO :D-->
-  <section id="galeria" class="section">
-    <div class="section-header">
-      <h2>Galería</h2>
-      <p>Momentos del estudio, detrás de cámaras y sets de grabación.</p>
+<section id="galeria" class="section">
+  <div class="section-header">
+    <h2>Galería</h2>
+    <p>Momentos del estudio</p>
+  </div>
+
+  <div class="grid four-cols gallery-grid">
+
+    <div class="gallery-item">
+      <img src="set.jpg" alt="Vista tipo terraza" loading="lazy">
+      <p>Set</p>
     </div>
-    <div class="grid four-cols gallery-grid">
-      <div class="gallery-item">
-        <div class="gallery-placeholder">Set 1</div>
-        <p>Set de entrevistas</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-placeholder">Set 2</div>
-        <p>Vista tipo terraza</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-placeholder">On Air</div>
-        <p>En plena transmisión</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-placeholder">BTS</div>
-        <p>Detrás de cámaras</p>
-      </div>
+
+    <div class="gallery-item">
+      <video
+       src="xlive.mp4" 
+       autoplay
+       muted
+       loop
+       playsinline
+       preload="metadata">
+      </video>
+      <p>Eventos</p>
     </div>
-  </section>
     
-  <!-- HORARIO / CTA -->
-  <section class="section section-alt schedule-section">
-    <div class="schedule-card">
-      <h2>Horarios de apertura</h2>
-      <div class="schedule-grid">
-        <div>
-          <p><strong>Lunes – Viernes</strong></p>
-          <p>16:00 – 23:00</p>
-        </div>
-        <div>
-          <p><strong>Sábado</strong></p>
-          <p>15:00 – 18:00</p>
-        </div>
-      </div>
-      <p class="schedule-note">
-        Consulta disponibilidad para grabaciones y transmisiones especiales fuera de horario.
-      </p>
-      <a href="#contacto" class="btn btn-primary">Solicitar disponibilidad</a>
+    <div class="gallery-item">
+      <img src="transmision.jpg" alt="En plena transmisión" loading="lazy">
+      <p>En plena transmisión</p>
     </div>
-  </section>
+
+  </div>
+</section>
+
 
   <!-- CONTACTO -->
   <section id="contacto" class="section">
